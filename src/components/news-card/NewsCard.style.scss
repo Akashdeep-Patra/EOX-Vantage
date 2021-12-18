@@ -1,0 +1,26 @@
+.card_container{
+  width: 100%;
+  padding: 20px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  background-color: rgb(103, 135, 223);
+  border: none;
+  border-radius: 16px;
+  align-items:flex-start;
+  transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  h2,h3,span{
+    color: rgb(250, 250, 250);
+  }
+  
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: -4px 20px 28px 3px rgba(16, 54, 160, 1);
+-webkit-box-shadow: -4px 20px 28px 3px rgb(30, 74, 194);
+-moz-box-shadow: -4px 20px 28px 3px rgba(103, 135, 223,1);
+  }
+}
